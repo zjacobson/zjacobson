@@ -23,10 +23,10 @@ development:
     server_alive_interval: 0
 
 test:
-  api_key: 
-  secret_key: 
-  canvas_page_name: 
-  callback_url:
+  api_key: 2c744587050b3ef988d2f82abff97cc7
+  secret_key: 93fee3a1c1d4961402882f3bfb606640
+  canvas_page_name: fbcanvas
+  callback_url: http://jacobsonz.appspot.com/
   set_asset_host_to_callback_url: true
   tunnel:
     public_host_username: 
@@ -36,11 +36,11 @@ test:
     server_alive_interval: 0
 
 production:
-  api_key: 
-  secret_key: 
-  canvas_page_name: 
-  callback_url: 
-  set_asset_host_to_callback_url: true   
+  api_key: 2c744587050b3ef988d2f82abff97cc7
+  secret_key: 93fee3a1c1d4961402882f3bfb606640
+  canvas_page_name: fbcanvas
+  callback_url: http://jacobsonz.appspot.com/
+  set_asset_host_to_callback_url: true
   tunnel:
     public_host_username: 
     public_host: 
