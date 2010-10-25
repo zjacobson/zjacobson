@@ -156,3 +156,4 @@ Started GET "/posts/new" for 127.0.0.1 at Sat Oct 23 20:06:48 -0700 2010
 Rendered posts/_form.html.erb (5.5ms)
 Rendered posts/new.html.erb within layouts/application (8.5ms)
 Completed 200 OK in 74ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: RAILS_ROOT is deprecated. Please use ::Rails.root.to_s. (called from join at /Users/zak/Documents/Projects/cartoon-rails/heroku/vendor/plugins/facebooker/install.rb:10)
