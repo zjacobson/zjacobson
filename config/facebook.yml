@@ -1,0 +1,10 @@
+development:
+  # all data resides at http://www.facebook.com/developers/apps.php
+  app_id: 161293420568925
+  secret_key: 93fee3a1c1d4961402882f3bfb606640
+   
+production:
+  # all data resides at http://www.facebook.com/developers/apps.php
+  app_id: 161293420568925
+  secret_key: 93fee3a1c1d4961402882f3bfb606640
+  
