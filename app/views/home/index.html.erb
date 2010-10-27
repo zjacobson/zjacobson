@@ -1,2 +1,6 @@
 <h1>Home#index</h1>
 <%= link_to "My Blog", posts_path %>
+
+
+ <%= @facebook_cookies %>
+ <%= link_to 'Login', Koala::Facebook::OAuth.new.url_for_oauth_code(:callback => 'http://high-dawn-25.heroku.com/') %>

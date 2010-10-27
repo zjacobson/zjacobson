@@ -34,6 +34,9 @@ GEM
     erubis (2.6.6)
       abstract (>= 1.0.0)
     i18n (0.4.1)
+    json (1.4.6)
+    koala (0.9.1)
+      json
     mail (2.2.7)
       activesupport (>= 2.3.6)
       mime-types
@@ -69,5 +72,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  koala
   rails (= 3.0.1)
   sqlite3-ruby
