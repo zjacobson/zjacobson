@@ -7,7 +7,7 @@ def parse_facebook_cookies
 
   # If you've setup a configuration file as shown above then you can just do
    @facebook_cookies ||= Koala::Facebook::OAuth.new.get_user_from_cookie(cookies)
-   logger.debug "The cookies are #{@facebook_cookies}"
+   logger.info "The cookies are #{@facebook_cookies}"
 end
 
 
