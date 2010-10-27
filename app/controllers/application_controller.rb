@@ -13,4 +13,5 @@ end
 
 
   protect_from_forgery
+  helper_method :cookies
 end
